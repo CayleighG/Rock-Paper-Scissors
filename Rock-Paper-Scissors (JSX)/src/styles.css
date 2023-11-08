@@ -1,0 +1,69 @@
+html {
+  background-color:rgb(23, 156, 18);
+}
+
+h1 {
+  margin: 0;
+  padding: 8px;
+  color:mintcream;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  vertical-align: center;
+}
+
+.player {
+  margin: 10px;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(200, 200, 200);
+}
+
+.score {
+  padding: 1px;
+  font-size: small;
+  font-weight: bold;
+  background-color:darkgreen;
+}
+
+.playerAction {
+  display: flex;
+  felx-distraction: row;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  color:darkgreen;
+}
+
+.compAction {
+  display: flex;
+  felx-distraction: row;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  color:darkgreen;
+}
+
+.buttons {
+  width: 70px;
+  height: 50px;
+  margin: 2px;
+  border-radius: 8px;
+  background-color:darkgreen;
+  color:mintcream;
+}
+
+/*Found this cool effect while researching!*/
+.buttons:hover {
+  background-color: green;
+}
